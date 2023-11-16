@@ -12,7 +12,7 @@ blocks:
           commands:
             - checkout
             - cache list
-            - cache store
+            - cache store mix_exs mix.exs
       prologue:
         commands:
-          - cache restore
+          - cache restore mix_exs
